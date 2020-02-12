@@ -1,0 +1,14 @@
+CREATE DATABASE usuario;
+
+USE usuario;
+
+CREATE TABLE usuario(
+idUser INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(30) NOT NULL,
+login VARCHAR(30) NOT NULL,
+email VARCHAR(50) NOT NULL,
+senha VARCHAR (32) NOT NULL
+);
+
+DELETE FROM usuario
+WHERE idUser = ;
